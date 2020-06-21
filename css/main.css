@@ -1,5 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 580px;
+    background-color: #f70033;
+}
 .container{
+    background-attachment: fixed;
     max-width: 1140px;
     margin: 0 auto;
-    background-color: aqua;
+    background-image: url(/El-paprico/images/104495105_1351657955039816_4816707129774545079_n.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 580px;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav{
+    height: 70px;
+    padding: 5px;
+}
+.logo{
+    height: 20px;
+    margin-top: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/El-paprico/images/82012081_799016723896010_5697230532815880192_n.png);
+}
+.nav-menu{
+    float: right;
+}
+.menu-list{
+    margin-top: -25px;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.menu-item{
+    margin-left: 15px;
+}
+.main-header{
+    width: 780px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 110px;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-family: 'Caesar Dressing', cursive;
+    text-transform: uppercase;
+    font-size: 75px;
+}
+.header-text{
+    margin-top: 50px;
+    opacity: 0.7;
+}
+.btn{
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.header-btn{
+    background-color: white;
+    color: #f70033;
+    height: 60px;
+    margin-top: 60px;
+}
+.main-row-1{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+}
+h2{
+    font-family: 'Caesar Dressing', cursive;
+    text-transform: uppercase;
+    color: #f70033;
+}
+.main-text{
+    text-align: justify;
+    opacity: 0.5;
+    margin-top: 35px;
+}
+.column-3-2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main-btn{
+    height: 45px;
+    background-color:#f70033;
+    color: white;
+    padding: 15px 35px 15px 35px;
+    margin-top: 35px;
+}
+.red-wraper{
+    height: 450px;
+    background-color: #f70033;
+}
+.main-row-2{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+.column-2{
+    padding: 150px 0;
+    width: 540px;
+    color: white;
+}
+.column-2-1{
+    opacity: 0.7;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.main-row-3{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.column-4{
+    padding-top: 100px;
+    width: 25%;
+}
+.food-logo{
+    margin: 0 auto;
+    width: 165px;
+    height: 165px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+.food-logo-1{
+    background-image: url(/El-paprico/images/104481183_697684674402911_8101618044313981165_n.jpg);
+}
+.food-logo-2{
+    background-image: url(/El-paprico/images/82908625_658747591343532_8033239234629871333_n.jpg);
+}
+.food-logo-3{
+    background-image: url(/El-paprico/images/104839330_569850350397093_1928426350703101419_n.jpg);
+}
+.food-logo-4{
+    background-image: url(/El-paprico/images/104854946_298924224596353_2401443926191845594_n.jpg);
+}
+.food-text{
+    text-align: center;
+}
+.btn-cntr{
+    margin-left: 50px;
+}
+.gray-wraper{
+    background-color: #Efefef;
+    width: 100%;
+}
+.text-column-wraper{
+    height: 355px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 85px;
+}
+.text-column-4{
+    padding-top: 130px;
+    width: 25%;
+    color: gray;
+    text-align: justify;
+}
+.text-column-4:nth-of-type(3){
+    padding-right: 25px;
+}
+.black-wraper{
+    background-color: #01001A;
+    width: 100%;
+    
+    
+}
+.footer{
+    height: 215px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.footer-logo{
+    width: 125px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/El-paprico/images/82012081_799016723896010_5697230532815880192_n.png);
+}
+.footer-menu{
+    margin-top: 50px;
+    margin-left: -12px;
+}
+.copyRight{
+    float: right;
+    color: lightslategray;
 }
