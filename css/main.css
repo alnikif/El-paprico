@@ -47,7 +47,12 @@
     flex-direction: row;
 }
 .menu-item{
+    
     margin-left: 15px;
+}
+.menu-item:hover{
+    text-shadow: 1px 1px 1px white;
+    transition: 0.5s;
 }
 .main-header{
     width: 780px;
