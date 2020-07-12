@@ -221,6 +221,10 @@ h3{
     margin-top: 50px;
     margin-left: -12px;
 }
+.footer-menu .menu-list .menu-item:hover{
+    text-shadow: 1px 1px 1px white;
+    transition: 0.5s;
+}
 .copyRight{
     float: right;
     color: lightslategray;
